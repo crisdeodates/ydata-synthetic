@@ -7,6 +7,8 @@ site_dir: "static/docs"
 nav:
   - Getting started:
     - 'index.md'
+  - Older versions:
+    - 'getting-started/index.md'
     - Overview: 'index.md'
     - Installation: 'getting-started/installation.md'
     - Synthetic Data Generation:
@@ -27,8 +29,8 @@ nav:
       - Generate Multiple Tables:
           - Fabric Multi-Table **: "synthetic_data/multi_table/fabric_multitable.md"
       - Frequently Asked Questions: "synthetic_data/faqs.md"
-  - Integrations:
-      - Great Expectations: "integrations/gx_integration.md"
+    - Integrations:
+        - Great Expectations: "integrations/gx_integration.md"
   - Support: 
     - Help & Troubleshooting: 'support/help-troubleshooting.md'
 theme:

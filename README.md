@@ -1,8 +1,7 @@
-![](https://img.shields.io/github/workflow/status/ydataai/ydata-synthetic/prerelease)
-![](https://img.shields.io/pypi/status/ydata-synthetic)
+![](https://img.shields.io/pypi/status/ydata-sdk)
 [![](https://pepy.tech/badge/ydata-synthetic)](https://pypi.org/project/ydata-synthetic/)
 ![](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)
-[![](https://img.shields.io/pypi/v/ydata-synthetic)](https://pypi.org/project/ydata-synthetic/)
+[![](https://img.shields.io/pypi/v/ydata-synthetic)](https://pypi.org/project/ydata-sdk/)
 ![](https://img.shields.io/github/license/ydataai/ydata-synthetic)
 <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=ab07c7a0-c1ee-481e-9368-baf70185cf40" />
 
@@ -10,34 +9,13 @@
 
 Join us on [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://tiny.ydata.ai/dcai-ydata-synthetic)
 
-# YData Synthetic
-`YData-Synthetic` is an open-source package developed in 2020 with the primary goal of educating users about generative models for synthetic data generation. 
-Designed as a collection of models, it was intended for exploratory studies and educational purposes. 
-However, it was not optimized for the quality, performance, and scalability needs typically required by organizations.
-
-!!! note "Update"
-    Even though the journey was fun, and we have learned a lot from the community it is now time to upgrade `ydata-synthetic`.
-    Heading towards the future of synthetic data generation we recommend users to transition to `ydata-sdk`, which provides a superior experience with enhanced performance,
-    precision, and ease of use, making it the preferred tool for synthetic data generation and a perfect introduction to Generative AI. 
-
-## Synthetic data
-### What is synthetic data?
-Synthetic data is artificially generated data that is not collected from real world events. It replicates the statistical components of real data without containing any identifiable information, ensuring individuals' privacy.
-
-### Why Synthetic Data?
-Synthetic data can be used for many applications:
-  - Privacy compliance for data-sharing and Machine Learning development
-  - Remove bias
-  - Balance datasets
-  - Augment datasets
-
-> **Looking for an end-to-end solution to Synthetic Data Generation?**<br>
-> [YData Fabric](https://ydata.ai/products/synthetic_data) enables the generation of high-quality datasets within a full UI experience, from data preparation to synthetic data generation and evaluation.<br>
-> Check out the [Community Version](https://ydata.ai/register).
+# ydata-synthetic is now ydata-sdk
+**Better, faster, easier**
+[YData SDK](https://docs.sdk.ydata.ai/latest/) is the leading Python package for data professional that provides connectors, metadata management, data quality profiling and synthetic data generation.
 
 
-## ydata-synthetic to ydata-sdk
-With the upcoming update of `ydata-synthetic`to `ydata-sdk`, users will now have access to a single API that automatically selects and optimizes
+## from ydata-synthetic to ydata-sdk
+With the update of `ydata-synthetic`to `ydata-sdk`, users will now have access to a single API that automatically selects and optimizes
 the best generative model for their data. This streamlined approach eliminates the need to choose between
 various models manually, as the API intelligently identifies the optimal model based on the specific dataset and use case.
 
@@ -67,10 +45,30 @@ Binary installers for the latest released version are available at the [Python P
 pip install ydata-sdk
 ```
 
+## The good old YData Synthetic
+`YData-Synthetic` was an pioneering open-source package developed in 2020 with the primary goal of educating users about generative models for synthetic data generation. 
+Even though the journey was fun, and we have learned a lot from the community it is now time to upgrade `ydata-synthetic`.
+Heading towards the future of synthetic data generation we recommend users to transition to `ydata-sdk`, which provides a superior experience with enhanced performance, precision, and ease of use, making it the preferred tool for synthetic data generation and a perfect introduction to Generative AI. 
+
+## Synthetic data
+### What is synthetic data?
+Synthetic data is artificially generated data that is not collected from real world events. It replicates the statistical components of real data without containing any identifiable information, ensuring individuals' privacy.
+
+### Why Synthetic Data?
+Synthetic data can be used for many applications:
+  - Privacy compliance for data-sharing and Machine Learning development
+  - Remove bias
+  - Balance datasets
+  - Augment datasets
+
+> **Looking for an end-to-end solution to Synthetic Data Generation?**<br>
+> [YData Fabric](https://ydata.ai/products/synthetic_data) enables the generation of high-quality datasets within a full UI experience, from data preparation to synthetic data generation and evaluation.<br>
+
+
 ### The UI guide for synthetic data generation
 
 YData Fabric offers an UI interface to guide you through the steps and inputs to generate structure data.
-You can experiment today with [YData Fabric by registering the Community version](https://ydata.ai/register).
+Read more about [YData Fabric](https://ydata.ai/products/fabric).
 
 ### Examples
 Here you can find usage examples of the package and models to synthesize tabular data.
@@ -113,7 +111,4 @@ Find below useful literature of how to generate synthetic data and available gen
 For support in using this library, please join our Discord server. Our Discord community is very friendly and great about quickly answering questions about the use and development of the library. [Click here to join our Discord community!](https://tiny.ydata.ai/dcai-ydata-synthetic)
 
 ## FAQs
-Have a question? Check out the [Frequently Asked Questions](https://ydata.ai/resources/10-most-asked-questions-on-ydata-synthetic) about `ydata-synthetic`. If you feel something is missing, feel free to [book a beary informal chat with us](https://meetings.hubspot.com/fabiana-clemente).
-
-## License
-[MIT License](https://github.com/ydataai/ydata-synthetic/blob/master/LICENSE)
+Have a question? Check out the [Frequently Asked Questions](https://ydata.ai/resources/10-most-asked-questions-on-ydata-synthetic) about Synthetic Data. If you feel something is missing, feel free to [reach out on the Discord community](https://tiny.ydata.ai/dcai-ydata-synthetic).
