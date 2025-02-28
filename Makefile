@@ -1,5 +1,5 @@
-PYTHON = python3.7
-PIP = pip3.7
+PYTHON = python3
+PIP = pip3
 
 .PHONY: help lint test package clean install
 
@@ -31,5 +31,7 @@ clean: ### Removes build binaries
 install: ### Installs required dependencies
 	$(PIP) install dist/ydata-synthetic-$(version).tar.gz
 
-
-
+publish-docs: ### Publishes the documentation
+	echo "$(version)" > VERSION
+	$(PIP) install .
+	mike deploy --push --update-aliases $(version) latest
